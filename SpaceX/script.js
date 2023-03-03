@@ -6,6 +6,7 @@ function Init(){
 
 Init();
 
+
 async function fillNumbers(){
     let = livingCount = document.querySelector("#livingcount");
     let = vehicleCount = document.querySelector("#vehiclecount");

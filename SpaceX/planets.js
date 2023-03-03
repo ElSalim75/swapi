@@ -53,5 +53,4 @@ async function displayPlanets() {
     }
     let resultcount = document.querySelector("#resultcount");
     resultcount.textContent = planetlist.length;
-
 }
