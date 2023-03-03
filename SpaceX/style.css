@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: #000;
+    font-family: Roboto;
+    font-weight: 400;
+    padding-top: 3rem;
+}
+
+h1,h2,a {
+    margin: unset;
+    color: cadetblue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: unset;
+    color: cadetblue;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+p, a {
+    color: #fff;
+}
+
+button, select, input {
+    text-transform: uppercase;
+    background: black;
+    color: #fff;
+    border: solid white 2px;
+    padding: 10px 15px;
+    transition: .3s;
+}
+
+button:hover, select:hover, input:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+section {
+    border: solid white 2px;
+}
+
+a.active {
+    color: cadetblue;
+}
+
+svg {
+    color: cadetblue;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px white;
+    border-top: solid 2px white;
+}
+
+#navbar > img {
+    height: 3rem;
+    margin-bottom: 10px;
+    margin-right: 3rem;
+}
+
+#navbar > #navsections {
+    display: flex;
+    gap: 2rem;
+}
+
+section {
+    max-width: 80rem;
+    margin: 50px 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    padding: 20px;
+}
+
+#about, #chiffres {
+    background-image:
+    linear-gradient(0deg, rgba(210,241,84,0.38979118329466356) 0%, rgba(226,255,0,0) 42%),
+    url('img/space-bg.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+#chiffres {
+    background-image:
+    linear-gradient(0deg, rgba(224, 61, 216, 0.226) 0%, rgba(0, 0, 0, 0) 42%),
+    url('img/planets-bg.avif');
+}
+
+#about a {
+    color: cadetblue;
+}
+
+#chiffres ul {
+    display: flex;
+    gap: 6rem;
+}
+
+#chiffres ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#chiffres ul li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Planets page */
+
+section#planets {
+    max-width: 700px;
+    background-image:
+    linear-gradient(0deg, rgba(224, 61, 216, 0.226) 0%, rgba(0, 0, 0, 0) 42%),
+    url('img/planets-bg.avif');
+}
+
+section#planets > div {
+    display: flex;
+    gap: 5px;
+    font-style: italic;
+}
+
+#planetlist {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 95%;
+    padding: 0px 20px;
+    overflow: auto;
+}
+
+#planetlist > li {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    border-bottom: solid white 2px;
+    transition: .3s;
+}
+
+#planetlist > li:hover {
+    cursor: pointer;
+    background-color: cadetblue
+}
+
+#listheader {
+    font-weight: 700;
+}
+
+
+#resultcount {
+    color: cadetblue;
+    font-weight: 700;
+    font-style: normal;
+}

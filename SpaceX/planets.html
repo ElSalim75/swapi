@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planètes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="img/logotype.png" alt="" srcset="">
+        <div id="navsections">
+            <a class="active" href="index.html">Accueil</a>
+            <a href="">Prochaine Mission</a>
+            <a href="planets.html">Planètes</a>
+            <a href="">Véhicules</a>
+            <a href="">Personnes</a>
+        </div>
+    </nav>
+    <section id="planets">
+        <h2>Planètes</h2>
+        <select name="sort" id="sort">
+            <option value="population">Par population</option>
+        </select>
+        <input type="text" placeholder="Faites votre recherche..">
+        <ul id="planetlist">
+            <li id="listheader">
+                <p class="name">Nom</p>
+                <p class="territory">Terrain</p>
+            </li>
+
+        </ul>
+        <div>
+            <p id="resultcount">00</p>
+            <p> resultat(s)</p>
+        </div>  
+    </section>
+    <script src="planets.js"></script>
+</body>
+</html>
